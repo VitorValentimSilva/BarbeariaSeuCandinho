@@ -3,6 +3,7 @@ import { Start } from "../components/Start";
 import heroImg from "../assets/barbershop-hero.jpg";
 import { AboutUs } from "../components/AboutUs";
 import { LiaCertificateSolid } from "react-icons/lia";
+import { OurServices } from "../components/OurServices";
 
 export default function Home() {
   return (
@@ -75,6 +76,12 @@ export default function Home() {
               value: "Prêmios e Reconhecimentos",
               label: "Reconhecida por excelência em serviços de barbearia",
             }}
+          />
+
+          <OurServices
+            sectionName="Nossos Serviços"
+            title="Cuidados completos para o homem moderno"
+            description="Oferecemos uma gama completa de serviços de barbearia, desde cortes de cabelo modernos e clássicos até cuidados especializados com a barba. Nossos barbeiros experientes utilizam técnicas avançadas para garantir que cada cliente saia satisfeito e com um visual impecável."
           />
         </main>
       </div>
