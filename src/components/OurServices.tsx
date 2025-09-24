@@ -65,6 +65,17 @@ export function OurServices({
             duration="30-45 minutos"
           />
         </div>
+
+        <div className="mt-10 text-center flex flex-col items-center gap-4">
+          <p className="text-gray">
+            Não encontrou o que procura? Temos outros serviços disponíveis!
+          </p>
+
+          <div className="flex items-center gap-2 bg-secondary px-6 py-3 rounded-2xl cursor-pointer w-fit ">
+            <HiScissors size={34} className="text-primary" />
+            <p className="text-primary font-semibold">Agendar Consulta</p>
+          </div>
+        </div>
       </div>
     </section>
   );
